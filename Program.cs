@@ -19,3 +19,8 @@ int b = 2100000000;
 // to calculate the integers with long for longer than 32bit integers
 long c = (long)a + (long)b;
 Console.WriteLine(c);
+
+decimal d = 42.1M;
+decimal e = 38.2M;
+decimal f = d + e;
+Console.WriteLine($"The answer is {f}");
