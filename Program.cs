@@ -1,4 +1,6 @@
 ﻿// See https://aka.ms/new-console-template for more information
+/* 
+
 Console.WriteLine("Hello, David!");
 
 string firstFriend = "Maria";
@@ -39,6 +41,19 @@ else
     Console.WriteLine("Or the first number is not equal to the second");
 }
 
+*/
+
+for (
+    int i = 0; i < 5; i++)
+{
+    Console.WriteLine(i);
+    //DO THE THING
+}
+
+
+
+/* part 10 while loop
+
 int counter = 0;
 do
 {
@@ -46,3 +61,4 @@ do
     counter++;
 }
 while (counter < 5);
+*/
