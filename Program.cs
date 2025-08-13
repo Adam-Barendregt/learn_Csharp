@@ -43,14 +43,29 @@ else
 
 */
 
+/* part 11 for loops 
 for (
     int i = 0; i < 5; i++)
 {
     Console.WriteLine(i);
     //DO THE THING
 }
+*/
 
+var names = new List<string>
+{
+    "Scott",
+    "Ana",
+    "Felipe",
+    "David",
+    "Damian",
+    "Maria"
+};
 
+foreach (var name in names)
+{
+    Console.WriteLine($"Hello {name.ToUpper()}!");
+}
 
 /* part 10 while loop
 
