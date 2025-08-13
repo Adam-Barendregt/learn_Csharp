@@ -67,6 +67,9 @@ foreach (var name in names)
     Console.WriteLine($"Hello {name.ToUpper()}!");
 }
 
+Console.WriteLine(names[0]);
+Console.WriteLine(names[^2]);
+
 /* part 10 while loop
 
 int counter = 0;
