@@ -62,6 +62,7 @@ var names = new List<string>
     "Maria"
 };
 
+
 foreach (var name in names)
 {
     Console.WriteLine($"Hello {name.ToUpper()}!");
@@ -69,6 +70,12 @@ foreach (var name in names)
 
 Console.WriteLine(names[0]);
 Console.WriteLine(names[^2]);
+
+var numbers = new List<int> { 45, 56, 99, 48, 67, 78 };
+
+Console.WriteLine($"I found 99 at index {numbers.IndexOf(99)}");
+numbers.Sort();
+Console.WriteLine($"I found 99 at index {numbers.IndexOf(99)}");
 
 /* part 10 while loop
 
